@@ -1,0 +1,94 @@
+body{
+	background-color: #fff;
+	margin: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+table{
+	width: 100%;
+	table-layout: fixed;
+	padding: 0px;
+}
+
+td{
+	padding-bottom: 20px;
+	vertical-align: top;
+}
+
+@media only screen and (max-width: 650px) {
+	td{
+		display: block;
+	}
+}
+
+
+.descText{
+	height: 55px;
+	overflow: hidden;
+}
+
+.textExpand{
+	color: #666;
+	font-size: 11pt;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+#content{
+	border: 0px solid black;
+	position: relative;
+	margin: auto;
+	max-width: 1000px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+#titleLine{
+	margin: auto;
+	max-width: 1000px;
+}
+
+/*  header  */
+h2{
+	position: relative;
+	color: #465a61;
+}
+
+
+/*  general information navigation  */
+
+.line{
+	height: 25px;
+	background-color: rgba(30,132,76,.6);
+	margin: -10px;
+}
+
+
+
+/*  buttons  */ 
+.site{
+	background-size: cover;
+	background-clip: content-box;
+	background-repeat: no-repeat;
+	background-color: white;
+	margin: 0px;
+	height: 150px;
+	width: 100%;
+	padding: 0px;
+	border: .5px solid #ccc;
+	cursor: pointer;
+}
+
+#kcButton{ background-image: url("kc.png"); }
+#maButton{ background-image: url("ma.png"); }
+#drButton{ background-image: url("dr.png"); }
+#wtButton{ background-image: url("wt.png"); }
+#puButton{ background-image: url("pu.png"); }
+#fbButton{ background-image: url("fb.png"); }
+#pfButton{ background-image: url("pf.png"); }
+
+.site:enabled:hover{ 
+	border: 5px solid rgba(30,132,76,.3);
+}
+
